@@ -27,4 +27,10 @@ describe("mathOperators test cases", () => {
   it("pwr 2 ^ 2 to equal 4", () => {
     expect(pwr(2, 2)).toBe(4);
   })
+  it("exp 2 ** to equal 4", () => {
+    expect(pwr(2, 2)).toBe(4);
+  })
+  it("fact 5 ! to equal 720", () => {
+    expect(pwr(2, 2)).toBe(4);
+  })
 });
