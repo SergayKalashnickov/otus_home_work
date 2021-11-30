@@ -9,7 +9,6 @@ module.exports = {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json"],
   },
   output: {
-    // eslint-disable-next-line no-undef
     path: path.join(__dirname, "/dist"),
     filename: "index.js",
   },
@@ -17,7 +16,7 @@ module.exports = {
     rules: [
       {
         test: /\.(js|ts)x?$/,
-        loader: "babel-loader",
+        loader: require.resolve("babel-loader"),
         exclude: /node_modules/,
       },
     ],
