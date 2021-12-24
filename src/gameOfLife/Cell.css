@@ -1,0 +1,19 @@
+.cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    display: inline-block;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  
+  .cell-noActive {
+    border-color: gray;
+    background-color:red;
+  }
+  
+  .cell-active {
+    border-color: lightgray;
+    background-color: white;
+  }
